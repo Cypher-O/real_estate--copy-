@@ -1,0 +1,52 @@
+name: real_estate
+description: "The Real Estate Flutter App is a powerful mobile application tailored to simplify the real estate buying and selling process while integrating live location tracking on maps. Developed using Flutter, this app provides a unified, cross-platform solution with an elegant and intuitive interface, catering to the needs of real estate enthusiasts and professionals alike."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  google_fonts:
+
+  #state management
+  flutter_hooks: ^0.20.5
+  hooks_riverpod: ^2.5.1
+
+  #animations
+  flutter_animate: ^4.5.0
+  animations: ^2.0.11
+
+  #icons
+  iconsax: ^0.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/fonts/
+     - assets/images/
+
+  fonts:
+    - family: Euclid Circular A
+      fonts:
+        - asset: assets/fonts/Euclid-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Euclid-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Euclid-SemiBold.ttf
+          weight: 600

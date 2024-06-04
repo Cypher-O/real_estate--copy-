@@ -1,7 +1,7 @@
 import 'package:real_estate/utils/imports/generalImports.dart';
 
 Widget animatedPositionedContainer(
-  BuildContext context,{
+  BuildContext context, {
   double? left,
   double? right,
   required double top,
@@ -37,10 +37,12 @@ Widget animatedPositionedContainer(
                     noOfTextLine: 1,
                     textFontWeight: FontWeight.w400,
                   )
-                : const Icon(
-                    Iconsax.stickynote,
-                    size: 18,
-                    color: white,
+                : Center(
+                    child: const Icon(
+                      Iconsax.stickynote,
+                      size: 18,
+                      color: white,
+                    ),
                   ),
           ),
         )

@@ -73,7 +73,6 @@ class CustomizedAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 }
 
-
 //
 // class CustomizedAppBar extends StatelessWidget implements PreferredSizeWidget {
 //   const CustomizedAppBar({super.key});

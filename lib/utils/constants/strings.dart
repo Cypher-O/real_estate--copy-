@@ -12,6 +12,19 @@ const String fontFamily = 'Euclid Circular A';
 
 const double kScreenHorizontalPadding = 20;
 
+//Home Screen
+const String userGreeting = 'Hi, Marina';
+const String subText = "let's select your\nperfect place";
+
+const String listingLocationName = 'Gladkova St., 25';
+const String listingLocationName2 = 'Gubina St., 11';
+const String listingLocationName3 = 'Trefoleva St., 43';
+const String listingLocationName4 = 'Gladkova St., 25';
+
+const String rent = 'rent';
+const String buy = 'buy';
+const String offers = 'offers';
+
 //Search screen
 const String location = 'Saint Petersburg';
 const String cosy = "Cosy areas";
